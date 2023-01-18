@@ -8,25 +8,18 @@
   <link rel='stylesheet' type= 'text/css' media='screen' href='main.css'>
   <script src='main.js'></script>
 </head>
+
 <body>
-  <h1> Balance Finder</h1>
+  <h1> Create a Listing</h1>
   <button onclick='enableEth()'> Connect Wallet</button>
   <p id = 'connection'> Connection Status: Not Connected </p>
   <button onclick='checkEthBalance()'> Check Balance </button>
   <p id = 'balance'> Not Avaliable </p>
 </body>
 
-
-
 <body>
-  <h1> Decentralzied Auction</h1>
-  <button onclick='enableEth()'> Connect Wallet</button>
-  <p id = 'connection'> Connection Status: Not Connected </p>
-  <button onclick='checkEthBalance()'> Check Balance </button>
-  <p id = 'balance'> Not Avaliable </p>
-  <button onclick="location.href='Seller.html'"> Sell </button>
-  <button onclick="location.href='Buyer.html'"> Buy </button>
-  <button onclick="location.href='Listings.html'"> Check Auction Status </button>
+  <label for="lname">Listing Name:</label>
+  <input type="text" id="lname" name="lname">
+  <label for="ldes">Listing Description:</label>
+  <input type="text" id="ldes" name="ldes">
 </body>
-
-</html>
